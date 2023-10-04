@@ -1,4 +1,8 @@
-/* Reset & General Styles */
+h1 {
+    text-align: center;
+    color: #FFC0CB;
+    font-size: 20px;    
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -41,7 +45,7 @@ body {
     height: 50vh;
     object-fit: cover;
     vertical-align: middle;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .reviews-train.paused {
@@ -145,7 +149,7 @@ body {
     .reviews-train {
         display: inline-block;
         transition: transform 1s;
-        animation: moveTrain 25s linear infinite;
+        animation: moveTrain 50s linear infinite;
         transform-origin: left center;
 }
 .logo {
